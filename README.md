@@ -28,10 +28,13 @@ At the top of the screen is the navbar that links to the home page and the 'Agen
 In order to make the game function the way we had envisaged in our planning stage, we had to poll the Valorant API to retrieve a full list of characters in the game (called 'Agents') and all the information associated with that character, including abilities. Once that data was retrieved using **Axios**, we had to do the following.
 
 1. Filter out one character, an unplayable duplicate version of one of the other characters.
+
 ![Get All Agents](./readme-screenshots/getAllAgents.PNG)
 2. Randomly select one character to be the 'Active Agent', and remove that agent from the main list of Agents
+
 ![Activate](./readme-screenshots/activate.PNG)
 3. Select one of the Active Agent's abilities, select three random abilities from the list of other agents without any duplicates, then shuffle the order of the abilities.
+
 ![Select Random Abilities](./readme-screenshots/selectRandomAbilities.PNG)
 
 Once these are all done, the character and selected abilities are displayed on the page. The user can select one of the 4 displayed abilities by clicking on it. When they do, the game determines whether or not the answer was correct then displays a message telling the result. If the user selected the correct answer, the score increments and the game resets.
