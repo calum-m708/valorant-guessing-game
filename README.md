@@ -35,6 +35,7 @@ In order to make the game function the way we had envisaged in our planning stag
 ![Select Random Abilities](./readme-screenshots/selectRandomAbilities.PNG)
 
 Once these are all done, the character and selected abilities are displayed on the page. The user can select one of the 4 displayed abilities by clicking on it. When they do, the game determines whether or not the answer was correct then displays a message telling the result. If the user selected the correct answer, the score increments and the game resets.
+
 ![Compare Choice](./readme-screenshots/compareChoice.PNG)
 
 ## Design Notes
