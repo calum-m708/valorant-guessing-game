@@ -30,9 +30,11 @@ In order to make the game function the way we had envisaged in our planning stag
 1. Filter out one character, an unplayable duplicate version of one of the other characters.
 
 ![Get All Agents](./readme-screenshots/getAllAgents.PNG)
+
 2. Randomly select one character to be the 'Active Agent', and remove that agent from the main list of Agents
 
 ![Activate](./readme-screenshots/activate.PNG)
+
 3. Select one of the Active Agent's abilities, select three random abilities from the list of other agents without any duplicates, then shuffle the order of the abilities.
 
 ![Select Random Abilities](./readme-screenshots/selectRandomAbilities.PNG)
