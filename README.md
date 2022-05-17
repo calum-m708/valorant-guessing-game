@@ -1,4 +1,4 @@
-# Project 1 - 'Valorant Guessing Game'
+# Project 2 - 'Valorant Guessing Game'
 
 Valorant Guessing Game is a frontend application based on characters and abilities from the video game **Valorant**. It displays a character from the game and four different abilities. The player has to pick the ability they believe belongs to the character displayed on screen. I made this as my second project for the General Assembly Software Engineering Immersive course, collaborating with **[Jordan Smyth](https://github.com/jsmyth1423/)**. This was my first experience building a project with **React.js**.
 
@@ -53,4 +53,4 @@ As far as I'm aware there are no bugs that prevent the app from working as inten
 
 ## Wins and Key Learnings
 
-The biggest win for me in this project was gaining a much firmer understanding how to properly respect state. There were multiple challenges along the way with regards to setting and using state (especially when dealing with multiple pieces of state that are reliant on eachother), but by the end Jordan and I were very confident with our use of `useEffect` and `useState`, to the point that we were able to add a new piece of state at the last minute to track the player score.
+The biggest win for me in this project was gaining a much firmer understanding how to properly set and use state. There were multiple challenges along the way with regards to setting and using state (especially when dealing with multiple pieces of state that are reliant on eachother), but by the end Jordan and I were very confident with our use of `useEffect` and `useState`, to the point that we were able to add a new piece of state at the last minute to track the player score and have it work correctly first time with no need to debug.
