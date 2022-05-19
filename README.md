@@ -1,12 +1,12 @@
 # Project 2 - 'Valorant Guessing Game'
 
-Valorant Guessing Game is a frontend application based on characters and abilities from the video game **Valorant**. It displays a character from the game and four different abilities. The player has to pick the ability they believe belongs to the character displayed on screen. I made this as my second project for the General Assembly Software Engineering Immersive course, collaborating with **[Jordan Smyth](https://github.com/jsmyth1423/)**. This was my first experience building a project with **React.js**.
-
-**Technologies Used** - HTML, CSS, Javascript, React.js, Axios, Bulma, SASS, Postman, Node.js, Netlify
+Valorant Guessing Game is a frontend application based on characters and abilities from the video game **Valorant**. It displays a character from the game and four different abilities. The player has to pick the ability they believe belongs to the character displayed on screen. I made this as my second project for General Assembly's Software Engineering Immersive course, pair-programming with **[Jordan Smyth](https://github.com/jsmyth1423/)**. This was my first experience building a project with **React.js**.
 
 **Duration** - 2 days
 
 **[Link](https://project-2-api.netlify.app/)**
+
+**Technologies Used** - HTML, CSS, JavaScript, React.js, Axios, Bulma, SASS, Postman, Node.js, Netlify
 
 ## The Brief
 
@@ -14,6 +14,14 @@ Valorant Guessing Game is a frontend application based on characters and abiliti
 - Have several components
 - The app can have a router
 - Be deployed online
+
+## Development Process
+
+Jordan and I started the project by planning out our concept in Excalidraw. We sketched out roughly how our Game page would look, as well as our Agent Index and our individual Agent pages.
+
+![Excalidraw](./readme-screenshots/excalidraw.PNG)
+
+After this, we started working together using the Live Share extension on VSCode. We referred back to the Excalidraw when needed to ensure we were on track to complete the vision we had set out.
 
 ## App Overview
 
@@ -49,8 +57,9 @@ The app's styling uses Bulma as a base, with some custom CSS written in certain 
 
 ## Known bugs, other issues, and scope for improvement
 
-As far as I'm aware there are no bugs that prevent the app from working as intended. If we had more time to work on the project, we would have implemented a few more features such as a hard mode.
+As far as I'm aware there are no bugs that prevent the app from working as intended. If we had more time to work on the project, we would have implemented a few more features such as a hard mode. 
+The vast majority of the time on the project was spent on 
 
 ## Wins and Key Learnings
 
-The biggest win for me in this project was gaining a much firmer understanding how to properly set and use state. There were multiple challenges along the way with regards to setting and using state (especially when dealing with multiple pieces of state that are reliant on eachother), but by the end Jordan and I were very confident with our use of `useEffect` and `useState`, to the point that we were able to add a new piece of state at the last minute to track the player score and have it work correctly first time with no need to debug.
+The biggest win for me in this project was gaining a much firmer understanding how to properly set and use state. There were multiple challenges along the way with regards to setting and using state (especially when dealing with multiple pieces of state that are reliant on each other), but by the end Jordan and I were very confident with our use of `useEffect` and `useState`, to the point that we were able to add a new piece of state at the last minute to track the player score and have it work correctly first time with no need to debug.
