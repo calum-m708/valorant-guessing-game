@@ -43,7 +43,7 @@ In order to make the game function the way we had envisaged in our planning stag
 
 ![Activate](./readme-screenshots/activate.PNG)
 
-3. Select one of the Active Agent's abilities, select three random abilities from the list of other agents without any duplicates, then shuffle the order of the abilities.
+3. Select one of the Active Agent's abilities, select three random abilities from the list of other agents without any duplicates, then shuffle the order of the selected abilities.
 
 ![Select Random Abilities](./readme-screenshots/selectRandomAbilities.PNG)
 
@@ -57,8 +57,8 @@ The app's styling uses Bulma as a base, with some custom CSS written in certain 
 
 ## Known bugs, other issues, and scope for improvement
 
-As far as I'm aware there are no bugs that prevent the app from working as intended. If we had more time to work on the project, we would have implemented a few more features such as a hard mode. 
-The vast majority of the time on the project was spent on 
+As far as I'm aware there are no bugs that prevent the app from working as intended. If we had more time to work on the project, we would have implemented a few more features such as a hard mode.
+The vast majority of the time on the project was spent on working out the game logic and learning how to work with state.
 
 ## Wins and Key Learnings
 
